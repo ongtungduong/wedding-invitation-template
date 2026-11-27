@@ -1,0 +1,63 @@
+:root,
+[data-theme='classic-gold'] {
+  --color-accent: #bd945a;
+  --color-accent-text: #8c6832;
+  --color-accent-soft: rgba(189, 148, 90, 0.35);
+  --color-bg-white: #ffffff;
+  --color-bg-blush: #faf8f7;
+  --color-bg-sidebar: #f6f1f0;
+  --color-border: #ece6e4;
+  --color-heading: #161616;
+  --color-text: #555555;
+  --color-text-muted: #666666;
+  --color-overlay-dark: rgba(18, 14, 10, 0.45);
+  --color-overlay-strong: rgba(18, 14, 10, 0.62);
+
+  /* Typography (full Vietnamese diacritics coverage) */
+  --font-body: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-script: 'Dancing Script', cursive;
+
+  /* Layout */
+  --sidebar-width: 22%;
+  --sidebar-width-tablet: 280px;
+  --sidebar-width-mobile: 270px;
+  --container-max: 1140px;
+  --section-py: 96px;
+  --section-py-mobile: 64px;
+
+  /* Motion & Focus */
+  --transition-fast: 0.25s ease;
+  --transition-base: 0.4s ease;
+  --focus-ring: 2px solid #8c6832;
+}
+
+[data-theme='romantic-rose'] {
+  --color-accent: #c27d82;
+  --color-accent-text: #8e484e;
+  --color-accent-soft: rgba(194, 125, 130, 0.35);
+  --color-bg-blush: #fdf8f8;
+  --color-bg-sidebar: #f8ecee;
+  --color-border: #eedee0;
+  --focus-ring: 2px solid #8e484e;
+}
+
+[data-theme='sage-green'] {
+  --color-accent: #6d8b74;
+  --color-accent-text: #425e48;
+  --color-accent-soft: rgba(109, 139, 116, 0.35);
+  --color-bg-blush: #f7faf7;
+  --color-bg-sidebar: #edf3ee;
+  --color-border: #dce6de;
+  --focus-ring: 2px solid #425e48;
+}
+
+[data-theme='traditional-red'] {
+  --color-accent: #b03a3a;
+  --color-accent-text: #892222;
+  --color-accent-soft: rgba(176, 58, 58, 0.35);
+  --color-bg-blush: #fcf7f7;
+  --color-bg-sidebar: #f7ebeb;
+  --color-border: #eedbdb;
+  --focus-ring: 2px solid #892222;
+}

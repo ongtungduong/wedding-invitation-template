@@ -1,0 +1,353 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/wedding.schema.json",
+  "title": "Luxury Wedding Template Configuration",
+  "description": "Single configuration file to customize the wedding website template.",
+  "type": "object",
+  "required": [
+    "seo",
+    "language",
+    "theme",
+    "features",
+    "couple",
+    "event",
+    "media",
+    "story",
+    "milestones",
+    "gallery",
+    "locations",
+    "gift",
+    "rsvp",
+    "thankYou"
+  ],
+  "$defs": {
+    "localizedText": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        {
+          "type": "object",
+          "properties": {
+            "vi": { "type": "string", "minLength": 1 },
+            "en": { "type": "string", "minLength": 1 }
+          },
+          "required": ["vi", "en"],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "hexColor": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
+    },
+    "familySide": {
+      "type": "object",
+      "required": ["label", "father", "mother", "address"],
+      "properties": {
+        "label": { "$ref": "#/$defs/localizedText" },
+        "father": { "type": "string", "minLength": 1 },
+        "mother": { "type": "string", "minLength": 1 },
+        "address": { "type": "string", "minLength": 1 }
+      }
+    }
+  },
+  "properties": {
+    "$schema": { "type": "string" },
+    "seo": {
+      "type": "object",
+      "required": ["title", "description", "ogImage"],
+      "properties": {
+        "title": { "$ref": "#/$defs/localizedText" },
+        "description": { "$ref": "#/$defs/localizedText" },
+        "ogImage": { "type": "string" },
+        "robots": { "type": "string", "default": "index, follow" }
+      }
+    },
+    "language": {
+      "type": "object",
+      "required": ["default", "allowSwitch"],
+      "properties": {
+        "default": { "type": "string", "enum": ["vi", "en"] },
+        "allowSwitch": { "type": "boolean" }
+      }
+    },
+    "theme": {
+      "type": "object",
+      "required": ["preset"],
+      "properties": {
+        "preset": {
+          "type": "string",
+          "enum": ["classic-gold", "romantic-rose", "sage-green", "traditional-red"]
+        },
+        "customColors": {
+          "type": "object",
+          "properties": {
+            "accent": { "$ref": "#/$defs/hexColor" },
+            "accentText": { "$ref": "#/$defs/hexColor" },
+            "bgBlush": { "$ref": "#/$defs/hexColor" },
+            "bgSidebar": { "$ref": "#/$defs/hexColor" }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "features": {
+      "type": "object",
+      "properties": {
+        "showEnvelopeIntro": { "type": "boolean" },
+        "showInvitationCard": { "type": "boolean" },
+        "showAnniversary": { "type": "boolean" },
+        "showStory": { "type": "boolean" },
+        "showMilestones": { "type": "boolean" },
+        "showSchedule": { "type": "boolean" },
+        "showGallery": { "type": "boolean" },
+        "showLocations": { "type": "boolean" },
+        "showGift": { "type": "boolean" },
+        "showRsvp": { "type": "boolean" },
+        "showWishesWall": { "type": "boolean" },
+        "showCalendar": { "type": "boolean" },
+        "showGuestPersonalization": { "type": "boolean" },
+        "showMobileDock": { "type": "boolean" },
+        "showMusic": { "type": "boolean" }
+      }
+    },
+    "couple": {
+      "type": "object",
+      "required": [
+        "brideShort",
+        "groomShort",
+        "brideFull",
+        "groomFull",
+        "brideBio",
+        "groomBio"
+      ],
+      "properties": {
+        "brideShort": { "type": "string", "minLength": 1 },
+        "groomShort": { "type": "string", "minLength": 1 },
+        "brideFull": { "type": "string", "minLength": 1 },
+        "groomFull": { "type": "string", "minLength": 1 },
+        "brideBio": { "$ref": "#/$defs/localizedText" },
+        "groomBio": { "$ref": "#/$defs/localizedText" }
+      }
+    },
+    "families": {
+      "type": "object",
+      "required": ["announcement", "brideSide", "groomSide"],
+      "properties": {
+        "announcement": { "$ref": "#/$defs/localizedText" },
+        "brideSide": { "$ref": "#/$defs/familySide" },
+        "groomSide": { "$ref": "#/$defs/familySide" }
+      }
+    },
+    "event": {
+      "type": "object",
+      "required": [
+        "weddingDateIso",
+        "dateShort",
+        "dateDisplay",
+        "city",
+        "calendarTitle",
+        "calendarLocation",
+        "calendarDescription"
+      ],
+      "properties": {
+        "weddingDateIso": { "type": "string", "format": "date-time" },
+        "weddingEndIso": { "type": "string", "format": "date-time" },
+        "dateShort": { "type": "string" },
+        "dayOfWeek": { "$ref": "#/$defs/localizedText" },
+        "dateDisplay": { "$ref": "#/$defs/localizedText" },
+        "lunarDate": { "$ref": "#/$defs/localizedText" },
+        "city": { "$ref": "#/$defs/localizedText" },
+        "calendarTitle": { "$ref": "#/$defs/localizedText" },
+        "calendarLocation": { "type": "string" },
+        "calendarDescription": { "$ref": "#/$defs/localizedText" }
+      }
+    },
+    "media": {
+      "type": "object",
+      "required": [
+        "logo",
+        "hero",
+        "bride",
+        "groom",
+        "story",
+        "timerBanner",
+        "thankYouBanner"
+      ],
+      "properties": {
+        "logo": { "type": "string" },
+        "hero": { "type": "string" },
+        "bride": { "type": "string" },
+        "groom": { "type": "string" },
+        "story": { "type": "string" },
+        "timerBanner": { "type": "string" },
+        "thankYouBanner": { "type": "string" }
+      }
+    },
+    "music": {
+      "type": "object",
+      "properties": {
+        "src": { "type": "string" },
+        "title": { "$ref": "#/$defs/localizedText" }
+      }
+    },
+    "story": {
+      "type": "object",
+      "required": [
+        "eyebrow",
+        "title",
+        "paragraphs",
+        "highlightHeading",
+        "closingParagraph"
+      ],
+      "properties": {
+        "eyebrow": { "$ref": "#/$defs/localizedText" },
+        "title": { "$ref": "#/$defs/localizedText" },
+        "paragraphs": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/localizedText" }
+        },
+        "highlightHeading": { "$ref": "#/$defs/localizedText" },
+        "closingParagraph": { "$ref": "#/$defs/localizedText" }
+      }
+    },
+    "milestones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["step", "title", "date"],
+        "properties": {
+          "step": { "type": "string" },
+          "title": { "$ref": "#/$defs/localizedText" },
+          "date": { "type": "string" }
+        }
+      }
+    },
+    "schedule": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["time", "title", "description"],
+            "properties": {
+              "time": { "type": "string" },
+              "title": { "$ref": "#/$defs/localizedText" },
+              "description": { "$ref": "#/$defs/localizedText" }
+            }
+          }
+        },
+        "dressCode": {
+          "type": "object",
+          "properties": {
+            "note": { "$ref": "#/$defs/localizedText" },
+            "colors": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["hex", "name"],
+                "properties": {
+                  "hex": { "$ref": "#/$defs/hexColor" },
+                  "name": { "$ref": "#/$defs/localizedText" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "gallery": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "src", "caption", "category", "width", "height"],
+        "properties": {
+          "id": { "type": "string" },
+          "src": { "type": "string" },
+          "caption": { "$ref": "#/$defs/localizedText" },
+          "category": { "type": "string", "enum": ["ceremony", "party"] },
+          "width": { "type": "integer", "minimum": 1 },
+          "height": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "address", "mapUrl", "image", "width", "height"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "$ref": "#/$defs/localizedText" },
+          "time": { "type": "string" },
+          "startIso": { "type": "string", "format": "date-time" },
+          "endIso": { "type": "string", "format": "date-time" },
+          "address": { "type": "string" },
+          "mapUrl": { "type": "string", "format": "uri" },
+          "image": { "type": "string" },
+          "width": { "type": "integer", "minimum": 1 },
+          "height": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "gift": {
+      "type": "object",
+      "required": ["note", "accounts"],
+      "properties": {
+        "note": { "$ref": "#/$defs/localizedText" },
+        "accounts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "label",
+              "bankName",
+              "bankCode",
+              "accountNumber",
+              "accountHolder"
+            ],
+            "properties": {
+              "id": { "type": "string" },
+              "label": { "$ref": "#/$defs/localizedText" },
+              "bankName": { "type": "string" },
+              "bankCode": { "type": "string" },
+              "accountNumber": { "type": "string" },
+              "accountHolder": { "type": "string" },
+              "qrImage": { "type": "string" },
+              "useVietQr": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "rsvp": {
+      "type": "object",
+      "required": ["note"],
+      "properties": {
+        "endpoint": { "type": "string" },
+        "note": { "$ref": "#/$defs/localizedText" }
+      }
+    },
+    "wishes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "author", "message"],
+        "properties": {
+          "id": { "type": "string" },
+          "author": { "type": "string" },
+          "relation": { "$ref": "#/$defs/localizedText" },
+          "message": { "$ref": "#/$defs/localizedText" }
+        }
+      }
+    },
+    "thankYou": {
+      "type": "object",
+      "required": ["message"],
+      "properties": {
+        "message": { "$ref": "#/$defs/localizedText" }
+      }
+    }
+  }
+}

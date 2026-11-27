@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 700" width="1050" height="700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5EFE7"/>
+      <stop offset="100%" stop-color="#E4D4C1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1050" height="700" fill="url(#bg)"/>
+  <rect width="1050" height="700" fill="url(#glow)"/>
+  <rect x="26" y="26" width="998" height="648" fill="none" stroke="#8C6832" stroke-opacity="0.28" stroke-width="1"/>
+  <rect x="34" y="34" width="982" height="632" fill="none" stroke="#8C6832" stroke-opacity="0.16" stroke-width="1"/>
+  
+  <path d="M405 490 L405 320 A120 120 0 0 1 645 320 L645 490" fill="none" stroke="#8C6832" stroke-width="1.5" stroke-opacity="0.55"/>
+  <path d="M423 490 L423 324 A102 102 0 0 1 627 324 L627 490" fill="none" stroke="#8C6832" stroke-width="1" stroke-opacity="0.32"/>
+  <path d="M525 265 C497 298, 497 340, 525 370 C553 340, 553 298, 525 265 Z" fill="none" stroke="#8C6832" stroke-width="1.4" stroke-opacity="0.55"/>
+  <line x1="525" y1="265" x2="525" y2="425" stroke="#8C6832" stroke-width="1" stroke-opacity="0.4"/>
+  <path d="M525 355 C483 332, 469 360, 497 384" fill="none" stroke="#8C6832" stroke-width="1.2" stroke-opacity="0.5"/>
+  <path d="M525 368 C567 344, 581 372, 553 396" fill="none" stroke="#8C6832" stroke-width="1.2" stroke-opacity="0.5"/>
+  <text x="50%" y="644" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="29" fill="#8C6832" fill-opacity="0.72" letter-spacing="2">Hand in Hand</text>
+</svg>

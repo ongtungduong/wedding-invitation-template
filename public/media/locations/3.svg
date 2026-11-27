@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F4EEE6"/>
+      <stop offset="100%" stop-color="#E3D5C4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="533" fill="url(#bg)"/>
+  <rect width="800" height="533" fill="url(#glow)"/>
+  <rect x="26" y="26" width="748" height="481" fill="none" stroke="#8C6832" stroke-opacity="0.28" stroke-width="1"/>
+  <rect x="34" y="34" width="732" height="465" fill="none" stroke="#8C6832" stroke-opacity="0.16" stroke-width="1"/>
+  
+  <path d="M240 356.5 Q400 146.5 560 356.5" fill="none" stroke="#8C6832" stroke-width="1.5" stroke-opacity="0.5"/>
+  <ellipse cx="332" cy="256.5" rx="28" ry="12" transform="rotate(-32 332 256.5)" fill="none" stroke="#8C6832" stroke-width="1.3" stroke-opacity="0.55"/>
+  <ellipse cx="468" cy="256.5" rx="28" ry="12" transform="rotate(32 468 256.5)" fill="none" stroke="#8C6832" stroke-width="1.3" stroke-opacity="0.55"/>
+  <ellipse cx="400" cy="212.5" rx="18" ry="34" fill="none" stroke="#8C6832" stroke-width="1.4" stroke-opacity="0.6"/>
+  <circle cx="400" cy="302.5" r="42" fill="none" stroke="#8C6832" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="50%" y="477" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#8C6832" fill-opacity="0.72" letter-spacing="2">Groom Residence</text>
+</svg>

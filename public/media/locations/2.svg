@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5EFE7"/>
+      <stop offset="100%" stop-color="#E2D2BE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="533" fill="url(#bg)"/>
+  <rect width="800" height="533" fill="url(#glow)"/>
+  <rect x="26" y="26" width="748" height="481" fill="none" stroke="#8C6832" stroke-opacity="0.28" stroke-width="1"/>
+  <rect x="34" y="34" width="732" height="465" fill="none" stroke="#8C6832" stroke-opacity="0.16" stroke-width="1"/>
+  
+  <g stroke="#8C6832" stroke-width="1.6" fill="none" stroke-opacity="0.62">
+    <path d="M345 176.5 L372 176.5 L365 256.5 Q359 278.5 359 288.5 L359 351.5 M336 351.5 L382 351.5"/>
+    <path d="M428 176.5 L455 176.5 L448 256.5 Q441 278.5 441 288.5 L441 351.5 M418 351.5 L464 351.5"/>
+  </g>
+  <circle cx="400" cy="156.5" r="3.5" fill="#8C6832" fill-opacity="0.55"/>
+  <circle cx="382" cy="141.5" r="2.2" fill="#8C6832" fill-opacity="0.45"/>
+  <circle cx="416" cy="144.5" r="2.5" fill="#8C6832" fill-opacity="0.45"/>
+  <text x="50%" y="477" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#8C6832" fill-opacity="0.72" letter-spacing="2">Grand Ballroom</text>
+</svg>

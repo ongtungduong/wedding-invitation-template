@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 700" width="1050" height="700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3ECE4"/>
+      <stop offset="100%" stop-color="#E1D0BC"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1050" height="700" fill="url(#bg)"/>
+  <rect width="1050" height="700" fill="url(#glow)"/>
+  <rect x="26" y="26" width="998" height="648" fill="none" stroke="#8C6832" stroke-opacity="0.28" stroke-width="1"/>
+  <rect x="34" y="34" width="982" height="632" fill="none" stroke="#8C6832" stroke-opacity="0.16" stroke-width="1"/>
+  
+  <g stroke="#8C6832" stroke-width="1.6" fill="none" stroke-opacity="0.62">
+    <path d="M470 260 L497 260 L490 340 Q484 362 484 372 L484 435 M461 435 L507 435"/>
+    <path d="M553 260 L580 260 L573 340 Q566 362 566 372 L566 435 M543 435 L589 435"/>
+  </g>
+  <circle cx="525" cy="240" r="3.5" fill="#8C6832" fill-opacity="0.55"/>
+  <circle cx="507" cy="225" r="2.2" fill="#8C6832" fill-opacity="0.45"/>
+  <circle cx="541" cy="228" r="2.5" fill="#8C6832" fill-opacity="0.45"/>
+  <text x="50%" y="644" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="29" fill="#8C6832" fill-opacity="0.72" letter-spacing="2">Sweet Celebration</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 700" width="1050" height="700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7F1E9"/>
+      <stop offset="100%" stop-color="#E5D5C3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1050" height="700" fill="url(#bg)"/>
+  <rect width="1050" height="700" fill="url(#glow)"/>
+  <rect x="26" y="26" width="998" height="648" fill="none" stroke="#8C6832" stroke-opacity="0.28" stroke-width="1"/>
+  <rect x="34" y="34" width="982" height="632" fill="none" stroke="#8C6832" stroke-opacity="0.16" stroke-width="1"/>
+  
+  <circle cx="525" cy="340" r="120" fill="none" stroke="#8C6832" stroke-width="1.2" stroke-opacity="0.35"/>
+  <circle cx="525" cy="340" r="86" fill="none" stroke="#8C6832" stroke-width="1" stroke-opacity="0.24" stroke-dasharray="5 5"/>
+  <path d="M525 384 C525 384 468 348 468 312 C468 292 483 278 500 278 C512 278 521 285 525 294 C529 285 538 278 550 278 C567 278 582 292 582 312 C582 348 525 384 525 384 Z" fill="none" stroke="#8C6832" stroke-width="1.8" stroke-opacity="0.62"/>
+
+  <text x="50%" y="644" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="29" fill="#8C6832" fill-opacity="0.72" letter-spacing="2">First Dance</text>
+</svg>

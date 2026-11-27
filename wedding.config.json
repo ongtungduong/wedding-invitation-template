@@ -1,0 +1,375 @@
+{
+  "$schema": "./wedding.schema.json",
+  "seo": {
+    "title": {
+      "vi": "Minh Anh & Quốc Bảo — Thiệp Cưới Trực Tuyến",
+      "en": "Minh Anh & Quốc Bảo — Wedding Invitation"
+    },
+    "description": {
+      "vi": "Trân trọng kính mời bạn đến chung vui trong ngày trọng đại của Minh Anh & Quốc Bảo.",
+      "en": "We joyfully invite you to celebrate the wedding of Minh Anh & Quốc Bảo."
+    },
+    "ogImage": "media/hero.svg",
+    "robots": "index, follow"
+  },
+  "language": {
+    "default": "vi",
+    "allowSwitch": true
+  },
+  "theme": {
+    "preset": "classic-gold",
+    "customColors": {}
+  },
+  "features": {
+    "showEnvelopeIntro": true,
+    "showInvitationCard": true,
+    "showAnniversary": true,
+    "showStory": true,
+    "showMilestones": true,
+    "showSchedule": true,
+    "showGallery": true,
+    "showLocations": true,
+    "showGift": true,
+    "showRsvp": true,
+    "showWishesWall": true,
+    "showCalendar": true,
+    "showGuestPersonalization": true,
+    "showMobileDock": true,
+    "showMusic": true
+  },
+  "couple": {
+    "brideShort": "Minh Anh",
+    "groomShort": "Quốc Bảo",
+    "brideFull": "Nguyễn Minh Anh",
+    "groomFull": "Trần Quốc Bảo",
+    "brideBio": {
+      "vi": "Minh Anh yêu thích nghệ thuật, những chuyến đi bình yên và luôn mang đến năng lượng ấm áp cho mọi người xung quanh.",
+      "en": "Minh Anh loves art, peaceful journeys, and bringing warmth to everyone around her."
+    },
+    "groomBio": {
+      "vi": "Quốc Bảo là kỹ sư công nghệ điềm đạm, yêu thể thao và luôn trân trọng những khoảnh khắc giản dị bên gia đình.",
+      "en": "Quốc Bảo is a thoughtful software engineer who enjoys sports and cherishes simple family moments."
+    }
+  },
+  "families": {
+    "announcement": {
+      "vi": "Trân trọng báo tin Lễ Thành Hôn của hai con chúng tôi",
+      "en": "Together with our families, joyfully announce the wedding of"
+    },
+    "brideSide": {
+      "label": { "vi": "Nhà Gái", "en": "Bride's Family" },
+      "father": "Ông Nguyễn Minh Đức",
+      "mother": "Bà Lê Thu Hương",
+      "address": "Quận Cầu Giấy, Hà Nội"
+    },
+    "groomSide": {
+      "label": { "vi": "Nhà Trai", "en": "Groom's Family" },
+      "father": "Ông Trần Quang Huy",
+      "mother": "Bà Phạm Thanh Mai",
+      "address": "Quận Ba Đình, Hà Nội"
+    }
+  },
+  "event": {
+    "weddingDateIso": "2027-03-20T11:00:00+07:00",
+    "weddingEndIso": "2027-03-20T14:00:00+07:00",
+    "dateShort": "20.03.2027",
+    "dayOfWeek": {
+      "vi": "Thứ Bảy",
+      "en": "Saturday"
+    },
+    "dateDisplay": {
+      "vi": "20 Tháng 03, 2027",
+      "en": "March 20, 2027"
+    },
+    "lunarDate": {
+      "vi": "Nhằm ngày 13 Tháng 02 năm Đinh Mùi",
+      "en": "13th Day of the 2nd Lunar Month"
+    },
+    "city": {
+      "vi": "Hà Nội",
+      "en": "Hanoi"
+    },
+    "calendarTitle": {
+      "vi": "Lễ Cưới Minh Anh & Quốc Bảo",
+      "en": "Minh Anh & Quốc Bảo Wedding"
+    },
+    "calendarLocation": "Trung tâm Tiệc cưới Grand Horizon, Ba Đình, Hà Nội",
+    "calendarDescription": {
+      "vi": "Sự hiện diện của bạn là niềm hạnh phúc lớn nhất của gia đình chúng tôi.",
+      "en": "Your presence is the greatest gift on our wedding day."
+    }
+  },
+  "media": {
+    "logo": "media/logo.svg",
+    "hero": "media/hero.svg",
+    "bride": "media/bride.svg",
+    "groom": "media/groom.svg",
+    "story": "media/story.svg",
+    "timerBanner": "media/banner-timer.svg",
+    "thankYouBanner": "media/banner-thankyou.svg"
+  },
+  "music": {
+    "src": "media/music.m4a",
+    "title": {
+      "vi": "Nhạc nền tiệc cưới",
+      "en": "Wedding Background Music"
+    }
+  },
+  "story": {
+    "eyebrow": {
+      "vi": "Tình yêu của chúng mình",
+      "en": "Our Love"
+    },
+    "title": {
+      "vi": "Chuyện Tình Yêu",
+      "en": "Our Story"
+    },
+    "paragraphs": [
+      {
+        "vi": "Chúng mình tình cờ gặp nhau vào một buổi chiều mùa thu năm 2021. Từ những cuộc trò chuyện nhỏ mỗi ngày, cả hai dần nhận ra sự đồng điệu kỳ lạ trong suy nghĩ và ước mơ.",
+        "en": "We met by chance on an autumn afternoon in 2021. From small daily conversations, we discovered a deep harmony in our thoughts and dreams."
+      },
+      {
+        "vi": "Trải qua nhiều mùa xuân hạ thu đông cùng nhau, từ những ngày bận rộn đến những chuyến đi xa, chúng mình học cách lắng nghe, sẻ chia và trở thành điểm tựa vững chắc của nhau.",
+        "en": "Through seasons of busy days and shared adventures, we learned to listen, support one another, and grow together."
+      }
+    ],
+    "highlightHeading": {
+      "vi": "20 Tháng 10, 2026 — Lời Cầu Hôn Ngọt Ngào!",
+      "en": "October 20, 2026 — We Said Yes!"
+    },
+    "closingParagraph": {
+      "vi": "Hôm nay, chúng mình sẵn sàng bước sang chương mới của cuộc đời — cùng nhau xây dựng một tổ ấm bình yên và trọn vẹn yêu thương.",
+      "en": "Today, we are ready for a new chapter together — building a peaceful home filled with warmth and love."
+    }
+  },
+  "milestones": [
+    {
+      "step": "01",
+      "title": { "vi": "Lễ Dạm Ngõ", "en": "Proposal Ceremony" },
+      "date": "20.10.2026"
+    },
+    {
+      "step": "02",
+      "title": { "vi": "Lễ Ăn Hỏi", "en": "Engagement Ceremony" },
+      "date": "19.03.2027"
+    },
+    {
+      "step": "03",
+      "title": { "vi": "Lễ Vu Quy & Thành Hôn", "en": "Wedding Procession" },
+      "date": "20.03.2027"
+    },
+    {
+      "step": "04",
+      "title": { "vi": "Tiệc Chung Vui", "en": "Wedding Reception" },
+      "date": "20.03.2027"
+    }
+  ],
+  "schedule": {
+    "items": [
+      {
+        "time": "08:30",
+        "title": { "vi": "Lễ Gia Tiên & Đón Dâu", "en": "Traditional Tea Ceremony" },
+        "description": {
+          "vi": "Nghi lễ truyền thống ấm cúng tại tư gia hai bên gia đình.",
+          "en": "Intimate ancestral ceremony and procession at the family homes."
+        }
+      },
+      {
+        "time": "11:00",
+        "title": { "vi": "Đón Khách & Chụp Ảnh", "en": "Welcome & Portraits" },
+        "description": {
+          "vi": "Đón tiếp người thân, bạn bè và lưu giữ khoảnh khắc tại sảnh tiệc.",
+          "en": "Welcome drinks and portrait moments with family and friends."
+        }
+      },
+      {
+        "time": "12:00",
+        "title": { "vi": "Nghi Lễ & Khai Tiệc", "en": "Ceremony & Banquet" },
+        "description": {
+          "vi": "Trao nhẫn cưới, nâng ly chúc mừng và dùng tiệc trưa thân mật.",
+          "en": "Ring exchange, champagne toast, and celebratory wedding luncheon."
+        }
+      },
+      {
+        "time": "13:30",
+        "title": { "vi": "Âm Nhạc & Tung Hoa", "en": "Music & Bouquet Toss" },
+        "description": {
+          "vi": "Âm nhạc acoustic nhẹ nhàng, tung hoa cưới và giao lưu cùng khách mời.",
+          "en": "Live acoustic melodies, bouquet toss, and heartfelt farewells."
+        }
+      }
+    ],
+    "dressCode": {
+      "note": {
+        "vi": "Gợi ý trang phục thanh lịch theo bảng màu trung tính ấm áp để cùng hòa quyện trong khung hình kỷ niệm.",
+        "en": "Formal or semi-formal attire in soft champagne and warm neutral tones."
+      },
+      "colors": [
+        { "hex": "#F5EFE6", "name": { "vi": "Kem ngà", "en": "Ivory" } },
+        { "hex": "#DFCBB5", "name": { "vi": "Be cát", "en": "Champagne" } },
+        { "hex": "#BD945A", "name": { "vi": "Vàng đồng", "en": "Warm Gold" } },
+        { "hex": "#8B7D6B", "name": { "vi": "Nâu nhạt", "en": "Taupe" } },
+        { "hex": "#2F2A26", "name": { "vi": "Nâu đen", "en": "Espresso" } }
+      ]
+    }
+  },
+  "gallery": [
+    {
+      "id": "photo-1",
+      "src": "media/gallery/1.svg",
+      "caption": { "vi": "Trao Nhẫn Ước Hẹn", "en": "The Ring Exchange" },
+      "category": "ceremony",
+      "width": 1050,
+      "height": 700
+    },
+    {
+      "id": "photo-2",
+      "src": "media/gallery/2.svg",
+      "caption": { "vi": "Nâng Ly Chúc Phúc", "en": "Champagne Toast" },
+      "category": "party",
+      "width": 1050,
+      "height": 700
+    },
+    {
+      "id": "photo-3",
+      "src": "media/gallery/3.svg",
+      "caption": { "vi": "Nét Duyên Áo Dài", "en": "Traditional Elegance" },
+      "category": "ceremony",
+      "width": 1050,
+      "height": 700
+    },
+    {
+      "id": "photo-4",
+      "src": "media/gallery/4.svg",
+      "caption": { "vi": "Điệu Nhảy Đầu Tiên", "en": "First Dance" },
+      "category": "party",
+      "width": 1050,
+      "height": 700
+    },
+    {
+      "id": "photo-5",
+      "src": "media/gallery/5.svg",
+      "caption": { "vi": "Bước Chung Một Lối", "en": "Walking Together" },
+      "category": "ceremony",
+      "width": 1050,
+      "height": 700
+    },
+    {
+      "id": "photo-6",
+      "src": "media/gallery/6.svg",
+      "caption": { "vi": "Khoảnh Khắc Ngọt Ngào", "en": "Sweet Celebration" },
+      "category": "party",
+      "width": 1050,
+      "height": 700
+    }
+  ],
+  "locations": [
+    {
+      "id": "bride-home",
+      "title": { "vi": "Tư Gia Nhà Gái", "en": "Bride's Home" },
+      "time": "08:30 — 20.03.2027",
+      "startIso": "2027-03-20T08:30:00+07:00",
+      "endIso": "2027-03-20T10:00:00+07:00",
+      "address": "123 Đường Mẫu, Quận Cầu Giấy, Hà Nội",
+      "mapUrl": "https://maps.google.com/?q=Cau+Giay+Hanoi+Vietnam",
+      "image": "media/locations/1.svg",
+      "width": 800,
+      "height": 533
+    },
+    {
+      "id": "groom-home",
+      "title": { "vi": "Tư Gia Nhà Trai", "en": "Groom's Home" },
+      "time": "10:00 — 20.03.2027",
+      "startIso": "2027-03-20T10:00:00+07:00",
+      "endIso": "2027-03-20T11:00:00+07:00",
+      "address": "456 Phố Mẫu, Quận Ba Đình, Hà Nội",
+      "mapUrl": "https://maps.google.com/?q=Ba+Dinh+Hanoi+Vietnam",
+      "image": "media/locations/3.svg",
+      "width": 800,
+      "height": 533
+    },
+    {
+      "id": "reception",
+      "title": { "vi": "Tiệc Cưới Chính Thức", "en": "Wedding Reception" },
+      "time": "11:00 — 20.03.2027",
+      "startIso": "2027-03-20T11:00:00+07:00",
+      "endIso": "2027-03-20T14:00:00+07:00",
+      "address": "Trung tâm Tiệc cưới Grand Horizon, Ba Đình, Hà Nội",
+      "mapUrl": "https://maps.google.com/?q=Hoan+Kiem+Hanoi+Vietnam",
+      "image": "media/locations/2.svg",
+      "width": 800,
+      "height": 533
+    }
+  ],
+  "gift": {
+    "note": {
+      "vi": "Sự hiện diện của bạn là món quà trân quý nhất. Nếu không thể tham dự trực tiếp, bạn có thể gửi lời chúc và mừng cưới tới gia đình chúng mình qua thông tin bên dưới.",
+      "en": "Your presence is the greatest gift. If you cannot attend in person, you may send your warm wishes using the details below."
+    },
+    "accounts": [
+      {
+        "id": "bride-gift",
+        "label": { "vi": "Mừng cưới Cô Dâu", "en": "Bride's Family" },
+        "bankName": "Vietcombank",
+        "bankCode": "VCB",
+        "accountNumber": "0123456789",
+        "accountHolder": "NGUYEN MINH ANH",
+        "qrImage": "media/qr/bride-qr.svg",
+        "useVietQr": false
+      },
+      {
+        "id": "groom-gift",
+        "label": { "vi": "Mừng cưới Chú Rể", "en": "Groom's Family" },
+        "bankName": "Techcombank",
+        "bankCode": "TCB",
+        "accountNumber": "9876543210",
+        "accountHolder": "TRAN QUOC BAO",
+        "qrImage": "media/qr/groom-qr.svg",
+        "useVietQr": false
+      }
+    ]
+  },
+  "rsvp": {
+    "endpoint": "",
+    "note": {
+      "vi": "Vui lòng xác nhận tham dự trước ngày 10.03.2027 để gia đình chúng mình chuẩn bị đón tiếp chu đáo nhất.",
+      "en": "Please RSVP before March 10, 2027 so we can prepare a warm welcome for you."
+    }
+  },
+  "wishes": [
+    {
+      "id": "wish-1",
+      "author": "Hoàng Thu Thảo",
+      "relation": { "vi": "Bạn thân cô dâu", "en": "Bride's Best Friend" },
+      "message": {
+        "vi": "Chúc Minh Anh và Quốc Bảo trăm năm hạnh phúc, luôn nắm chặt tay nhau trên mọi chặng đường phía trước!",
+        "en": "Wishing Minh Anh & Quốc Bảo a lifetime of happiness, laughter, and endless love together!"
+      }
+    },
+    {
+      "id": "wish-2",
+      "author": "Nguyễn Minh Quân",
+      "relation": { "vi": "Đồng nghiệp chú rể", "en": "Groom's Colleague" },
+      "message": {
+        "vi": "Chúc mừng ngày trọng đại của hai bạn. Chúc tổ ấm mới luôn ngập tràn tiếng cười và bình an!",
+        "en": "Congratulations on your special day! May your new home always be filled with warmth and joy."
+      }
+    },
+    {
+      "id": "wish-3",
+      "author": "Gia đình anh Tuấn – chị Linh",
+      "relation": { "vi": "Người thân", "en": "Family" },
+      "message": {
+        "vi": "Thật vui được chứng kiến ngày hạnh phúc của hai em. Chúc hai em mãi yêu thương và đồng hành cùng nhau!",
+        "en": "So thrilled to witness your wedding day. Wishing you both a wonderful journey ahead!"
+      }
+    }
+  ],
+  "thankYou": {
+    "message": {
+      "vi": "Sự hiện diện và lời chúc phúc của bạn là niềm hạnh phúc trọn vẹn nhất trong ngày vui của chúng mình.",
+      "en": "Your blessings, warmth, and presence make our celebration truly complete."
+    }
+  }
+}

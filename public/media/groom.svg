@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3ECE4"/>
+      <stop offset="100%" stop-color="#E2D5C5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <rect x="26" y="26" width="348" height="348" fill="none" stroke="#8C6832" stroke-opacity="0.28" stroke-width="1"/>
+  <rect x="34" y="34" width="332" height="332" fill="none" stroke="#8C6832" stroke-opacity="0.16" stroke-width="1"/>
+  
+  <circle cx="200" cy="186" r="110" fill="none" stroke="#8C6832" stroke-width="1.3" stroke-opacity="0.4"/>
+  <circle cx="200" cy="156" r="36" fill="none" stroke="#8C6832" stroke-width="1.6" stroke-opacity="0.62"/>
+  <path d="M132 278 C138 218, 262 218, 268 278" fill="none" stroke="#8C6832" stroke-width="1.6" stroke-opacity="0.62"/>
+  <path d="M184 226 L200 246 L216 226" fill="none" stroke="#8C6832" stroke-width="1.5" stroke-opacity="0.55"/>
+  <text x="50%" y="344" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="17" fill="#8C6832" fill-opacity="0.72" letter-spacing="2">The Groom</text>
+</svg>
